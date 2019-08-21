@@ -1,0 +1,32 @@
+/* sidebar */
+.unfold {
+  margin: 20px;
+  width: 40px;
+}
+
+.fold {
+  margin: 20px;
+  width: 160px;
+}
+
+.rumbbox {
+  display: flex;
+}
+
+.rumb {
+  width: auto;
+  padding-left: 10px;
+  line-height: 64px;
+}
+
+.timebox {
+  position: absolute;
+  right: 40px;
+  line-height: 64px;
+  display: flex;
+}
+
+.timedate {
+  margin-left: 10px;
+  color: rgba(0, 0, 0, 0.65);
+}

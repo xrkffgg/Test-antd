@@ -1,0 +1,40 @@
+.Main {
+  display: flex;
+}
+
+.Sidebarbox {
+  width: 256px;
+  height: 100vh;
+  box-shadow: rgba(0, 0, 0, 0.65) 1px 1px 10px 2px;
+  z-index: 2;
+}
+
+.title {
+  font-size: 20px;
+  color: #fff;
+  background: #001529;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  letter-spacing: 1px;
+  cursor: default;
+}
+
+.contentbox {
+  left: 256px;
+  width: calc(100vw - 256px);
+  height: 100vh;
+  background: #eff1f4;
+}
+
+.rumb{
+  width: 100%;
+  height: 64px;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.65) 1px 1px 4px 2px;
+}
+
+.content {
+  margin: 20px;
+  height: calc(100% - 104px);
+}

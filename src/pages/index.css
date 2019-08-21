@@ -1,0 +1,12 @@
+.rumb {
+  padding: 10px;
+}
+
+.card {
+  min-height: 500px;
+  background: #fff;
+}
+
+.card:hover {
+  box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.05);
+}
