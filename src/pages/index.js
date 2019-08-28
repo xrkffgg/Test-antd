@@ -21,7 +21,7 @@ class app extends React.Component {
         <Row type="flex" justify="space-around" align="middle" style={{padding: `50px 0`}}>
           <Col span={10}>
             <Card
-              title="当日设备在线时长"
+              title="时长"
               bordered={false}
               className={S.card}
               loading={this.state.loading}
@@ -31,7 +31,7 @@ class app extends React.Component {
           </Col>
           <Col span={10}>
             <Card
-              title="当日安检作业"
+              title="工作"
               bordered={false}
               className={S.card}
               loading={this.state.loading}

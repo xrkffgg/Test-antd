@@ -45,11 +45,11 @@ class Sidebar extends React.Component {
           </Menu.Item>
           <Menu.Item key="2">
             <Icon type="bar-chart"/>
-            <span>设备在线时长统计</span>
+            <span>时长</span>
           </Menu.Item>
           <Menu.Item key="3">
             <Icon type="line-chart"/>
-            <span>安检作业统计</span>
+            <span>工作</span>
           </Menu.Item>
         </Menu>
       </div>

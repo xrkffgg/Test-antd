@@ -29,9 +29,9 @@ class Rumb extends React.Component {
       case '/':
         return [{icon: 'home', path: false, route: '/', name: '首页'}];
       case '/online':
-        return [{icon: 'home', path: true, route: '/', name: '首页'},{icon: 'bar-chart', path: false, route: '/online', name: '设备在线时长统计'}];
+        return [{icon: 'home', path: true, route: '/', name: '首页'},{icon: 'bar-chart', path: false, route: '/online', name: '时长'}];
       case '/work':
-        return [{icon: 'home', path: true, route: '/', name: '首页'},{icon: 'line-chart', path: false, route: '/work', name: '安检作业统计'}];
+        return [{icon: 'home', path: true, route: '/', name: '首页'},{icon: 'line-chart', path: false, route: '/work', name: '工作'}];
     }
   };
 

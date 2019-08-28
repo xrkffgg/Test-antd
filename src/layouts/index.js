@@ -6,7 +6,7 @@ function BasicLayout(props) {
   return (
     <div className={S.Main}>
       <div className={S.Sidebarbox}>
-        <div className={S.title}>智能安检管理系统</div>
+        <div className={S.title}>QAQ</div>
         <Sidebar/>
       </div>
       <div className={S.contentbox}>
